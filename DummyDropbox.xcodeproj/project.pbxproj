@@ -13,6 +13,10 @@
 		0AB32D9219EF3B4C009CB5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB32D9119EF3B4C009CB5C5 /* Images.xcassets */; };
 		0AB32D9519EF3B4C009CB5C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB32D9319EF3B4C009CB5C5 /* LaunchScreen.xib */; };
 		0AB32DA119EF3B4C009CB5C5 /* DummyDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DA019EF3B4C009CB5C5 /* DummyDropboxTests.swift */; };
+		0AB32DB119EF451B009CB5C5 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB019EF451B009CB5C5 /* CreateAccountRootViewController.swift */; };
+		0AB32DB319EF47B3009CB5C5 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */; };
+		0AB32DB519EF48D3009CB5C5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */; };
+		0AB32DB719EF48DB009CB5C5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		0AB32D9A19EF3B4C009CB5C5 /* DummyDropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyDropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB32D9F19EF3B4C009CB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AB32DA019EF3B4C009CB5C5 /* DummyDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyDropboxTests.swift; sourceTree = "<group>"; };
+		0AB32DB019EF451B009CB5C5 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				0AB32D8A19EF3B4C009CB5C5 /* AppDelegate.swift */,
 				0AB32D8C19EF3B4C009CB5C5 /* ViewController.swift */,
 				0AB32D8E19EF3B4C009CB5C5 /* Main.storyboard */,
+				0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */,
+				0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */,
+				0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */,
+				0AB32DB019EF451B009CB5C5 /* CreateAccountRootViewController.swift */,
 				0AB32D9119EF3B4C009CB5C5 /* Images.xcassets */,
 				0AB32D9319EF3B4C009CB5C5 /* LaunchScreen.xib */,
 				0AB32D8819EF3B4C009CB5C5 /* Supporting Files */,
@@ -212,6 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB32DB519EF48D3009CB5C5 /* CreateAccountViewController.swift in Sources */,
+				0AB32DB319EF47B3009CB5C5 /* SignInRootViewController.swift in Sources */,
+				0AB32DB719EF48DB009CB5C5 /* SignInViewController.swift in Sources */,
+				0AB32DB119EF451B009CB5C5 /* CreateAccountRootViewController.swift in Sources */,
 				0AB32D8D19EF3B4C009CB5C5 /* ViewController.swift in Sources */,
 				0AB32D8B19EF3B4C009CB5C5 /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DummyDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DummyDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
