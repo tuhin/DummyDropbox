@@ -17,6 +17,7 @@
 		0AB32DB319EF47B3009CB5C5 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */; };
 		0AB32DB519EF48D3009CB5C5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */; };
 		0AB32DB719EF48DB009CB5C5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */; };
+		0AFA89B719F0AF5B005FFF26 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFA89B619F0AF5B005FFF26 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0AFA89B619F0AF5B005FFF26 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				0AB32D8A19EF3B4C009CB5C5 /* AppDelegate.swift */,
 				0AB32D8C19EF3B4C009CB5C5 /* ViewController.swift */,
 				0AB32D8E19EF3B4C009CB5C5 /* Main.storyboard */,
+				0AFA89B619F0AF5B005FFF26 /* TermsViewController.swift */,
 				0AB32DB419EF48D3009CB5C5 /* CreateAccountViewController.swift */,
 				0AB32DB619EF48DB009CB5C5 /* SignInViewController.swift */,
 				0AB32DB219EF47B3009CB5C5 /* SignInRootViewController.swift */,
@@ -230,6 +233,7 @@
 				0AB32DB119EF451B009CB5C5 /* CreateAccountRootViewController.swift in Sources */,
 				0AB32D8D19EF3B4C009CB5C5 /* ViewController.swift in Sources */,
 				0AB32D8B19EF3B4C009CB5C5 /* AppDelegate.swift in Sources */,
+				0AFA89B719F0AF5B005FFF26 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +427,7 @@
 				0AB32DA619EF3B4C009CB5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB32DA719EF3B4C009CB5C5 /* Build configuration list for PBXNativeTarget "DummyDropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				0AB32DA919EF3B4C009CB5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

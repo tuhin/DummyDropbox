@@ -1,19 +1,15 @@
 //
-//  CreateAccountViewController.swift
+//  TermsViewController.swift
 //  DummyDropbox
 //
-//  Created by Tuhin Kumar on 10/15/14.
+//  Created by Tuhin Kumar on 10/16/14.
 //  Copyright (c) 2014 Eunoia. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
+class TermsViewController: UIViewController {
 
-    @IBAction func CreateAccountBackButton(sender: AnyObject) {
-        navigationController!.popViewControllerAnimated(true)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +21,9 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func dismissTermsButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
