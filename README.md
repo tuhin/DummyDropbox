@@ -13,4 +13,4 @@ All required.
 
 
 GIF walkthrough of all required and optional stories 
-https://dl.dropboxusercontent.com/u/2800293/DummyDropbox.gif
+![](https://dl.dropboxusercontent.com/u/2800293/DummyDropbox.gif)
